@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+bdf2_temporal_interface_outputs/

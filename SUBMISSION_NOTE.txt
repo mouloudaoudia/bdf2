@@ -1,0 +1,13 @@
+BDF2 temporal-interface supplementary package
+=============================================
+
+This archive contains the reproducibility package for the revised manuscript.
+It includes Python scripts, requirements, numerical output tables, high-resolution figures, and manifests for the reported numerical experiments.
+
+Author and maintainer: Mouloud Aoudia
+
+Key added diagnostics are stored in outputs/:
+- genuine_unaligned_restart_diagnostic_table.txt
+- jump_data_sensitivity_benign_scalar_table.txt
+- jump_data_sensitivity_benign_semidiscrete_table.txt
+- additional_diagnostics_manifest.txt

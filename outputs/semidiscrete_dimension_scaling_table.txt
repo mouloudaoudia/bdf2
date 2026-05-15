@@ -1,0 +1,7 @@
+Dimension-scaling check for the manufactured benign semidiscrete benchmark at N=128
+
+Dimension | Standard Einf | Corrected Einf | Einf gain | Standard E2 | Corrected E2 | E2 gain | Runtime ratio
+---:|---:|---:|---:|---:|---:|---:|---:
+159 | 2.506176e-04 | 1.459665e-05 | 17.17 | 4.509105e-05 | 7.734393e-06 | 5.83 | 0.72
+639 | 5.012318e-04 | 2.919357e-05 | 17.17 | 9.018067e-05 | 1.546850e-05 | 5.83 | 0.78
+2559 | 1.002463e-03 | 5.838717e-05 | 17.17 | 1.803612e-04 | 3.093698e-05 | 5.83 | 0.92

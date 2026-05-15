@@ -1,0 +1,4 @@
+method,event_information_needed,extra_work_at_crossing,dominant_cost,effect_on_first_crossing_residual,interpretation
+standard BDF2,none,none,usual implicit BDF2 solve,none,baseline
+restart/history reinitialization,event time and post-event model,start-up/reconstruction steps after event,implicit solves used for restart/history rebuilding,does not cancel the mixed crossing residual if standard crossing value has already been generated,"robust history repair, not direct defect cancellation"
+defect-targeted correction,event fraction theta and derivative-jump data J1/J2,one vector correction added to the BDF2 right-hand side,same implicit BDF2 solve; correction is lower-order algebraic work,cancels the targeted leading crossing term when jump data are accurate,local crossing-defect cancellation when jump data are available
